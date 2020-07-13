@@ -1,0 +1,9 @@
+export ORACLE_HOME=/usr/lib/oracle/12.2/client64/bin
+export ORACLE_HOME=/usr/lib/oracle/12.2/client64
+export ORACLE_SID=ORCL
+export LD_LIBRARY_PATH=/usr/lib/oracle/12.2/client64/lib
+PATH=$PATH:$ORACLE_HOME/bin
+export ORCUSERNAME=SITRA1
+export ORCPASSWD=QbHMTP7V@
+export ORCHOST=trainingservers.careuhhgvzsm.us-east-1.rds.amazonaws.com
+sqlplus SITRA1/QbHMTP7V@"(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=trainingservers.careuhhgvzsm.us-east-1.rds.amazonaws.com)(PORT=1521))(CONNECT_DATA=(SID=ORCL)))"
