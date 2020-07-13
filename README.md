@@ -1,4 +1,4 @@
-# Optum
+# SCRIPT
 Perl Script to load the data into PCM
 
 #Combined
